@@ -1,5 +1,7 @@
 package com.datastructure.datastructure;
 
+// [자료구조 알고리즘] 단방향 Linked List 구현 in Java
+
 class Node {
     int data;
     Node next = null;
@@ -44,6 +46,9 @@ public class SinglyLinkedList {
         head.append(2);
         head.append(3);
         head.append(4);
+        head.retrieve();
+        head.delete(2);
+        head.delete(3);
         head.retrieve();
     }
 }
